@@ -1,0 +1,8 @@
+﻿  Building 'minispy' with toolset 'WindowsApplicationForDrivers10.0' and the 'Desktop' target platform.
+mspyLog.obj : error LNK2019: unresolved external symbol __imp__curl_global_init@4 referenced in function _FileDump@16
+mspyLog.obj : error LNK2019: unresolved external symbol __imp__curl_global_cleanup@0 referenced in function _FileDump@16
+mspyLog.obj : error LNK2019: unresolved external symbol __imp__curl_easy_strerror@4 referenced in function _FileDump@16
+mspyLog.obj : error LNK2019: unresolved external symbol __imp__curl_easy_init@0 referenced in function _FileDump@16
+mspyLog.obj : error LNK2019: unresolved external symbol __imp__curl_easy_perform@4 referenced in function _FileDump@16
+mspyLog.obj : error LNK2019: unresolved external symbol __imp__curl_easy_cleanup@4 referenced in function _FileDump@16
+Debug\minispy.exe : fatal error LNK1120: 6 unresolved externals

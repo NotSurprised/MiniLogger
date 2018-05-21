@@ -1,0 +1,170 @@
+﻿  Building 'minispy' with toolset 'WindowsApplicationForDrivers10.0' and the 'Desktop' target platform.
+  mspyLog.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winioctl.h(6768): warning C4668: '_WIN32_WINNT_WIN10_TH2' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winioctl.h(6774): warning C4668: '_WIN32_WINNT_WIN10_RS1' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winioctl.h(6779): warning C4668: '_WIN32_WINNT_WIN10_TH2' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winioctl.h(6783): warning C4668: '_WIN32_WINNT_WIN10_TH2' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winioctl.h(6790): warning C4668: '_WIN32_WINNT_WIN10_RS2' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winioctl.h(6800): warning C4668: '_WIN32_WINNT_WIN10_RS2' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winioctl.h(6991): warning C4668: '_WIN32_WINNT_WIN10_RS2' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winioctl.h(11378): warning C4668: '_WIN32_WINNT_WIN10_RS2' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\shared\fltUserStructures.h(594): warning C4820: '_FILTER_MESSAGE_HEADER': '4' bytes padding added after data member 'ReplyLength'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\shared\fltUserStructures.h(620): warning C4820: '_FILTER_REPLY_HEADER': '4' bytes padding added after data member 'Status'
+c:\users\yiting\desktop\issduransomware20171201-7(turnall2kernel)\user\mspyLog.h(37): warning C4820: '_LOG_CONTEXT': '6' bytes padding added after data member 'LogToFile'
+c:\users\yiting\desktop\issduransomware20171201-7(turnall2kernel)\user\mspyLog.h(46): warning C4820: '_LOG_CONTEXT': '6' bytes padding added after data member 'CleaningUp'
+c:\users\yiting\desktop\issduransomware20171201-7(turnall2kernel)\user\mspyLog.h(406): warning C4820: '<unnamed-tag>': '2' bytes padding added after data member 'PathBuffer'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\time.h(35): warning C4820: '_timespec64': '4' bytes padding added after data member 'tv_nsec'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\time.h(42): warning C4820: 'timespec': '4' bytes padding added after data member 'tv_nsec'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\shared\ws2def.h(264): warning C4820: '_SOCKET_ADDRESS': '4' bytes padding added after data member 'iSockaddrLength'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\shared\ws2def.h(273): warning C4820: '_SOCKET_ADDRESS_LIST': '4' bytes padding added after data member 'iAddressCount'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\shared\ws2def.h(686): warning C4820: '_WSABUF': '4' bytes padding added after data member 'len'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\shared\ws2def.h(696): warning C4820: '_WSAMSG': '4' bytes padding added after data member 'namelen'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\shared\ws2def.h(704): warning C4820: '_WSAMSG': '4' bytes padding added after data member 'dwBufferCount'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\shared\ws2def.h(712): warning C4820: '_WSAMSG': '4' bytes padding added after data member 'dwFlags'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\shared\ws2def.h(984): warning C4820: 'addrinfoex2A': '4' bytes padding added after data member 'ai_version'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\shared\ws2def.h(1003): warning C4820: 'addrinfoex2W': '4' bytes padding added after data member 'ai_version'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\shared\ws2def.h(1020): warning C4820: 'addrinfoex3': '4' bytes padding added after data member 'ai_version'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\shared\ws2def.h(1022): warning C4820: 'addrinfoex3': '4' bytes padding added after data member 'ai_interfaceindex'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\shared\ws2def.h(1038): warning C4820: 'addrinfoex4': '4' bytes padding added after data member 'ai_version'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\shared\ws2def.h(1040): warning C4820: 'addrinfoex4': '4' bytes padding added after data member 'ai_interfaceindex'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winsock2.h(138): warning C4820: 'fd_set': '4' bytes padding added after data member 'fd_count'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winsock2.h(241): warning C4820: 'hostent': '4' bytes padding added after data member 'h_length'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winsock2.h(253): warning C4820: 'netent': '2' bytes padding added after data member 'n_addrtype'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winsock2.h(266): warning C4820: 'servent': '6' bytes padding added after data member 's_port'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winsock2.h(272): warning C4820: 'protoent': '6' bytes padding added after data member 'p_proto'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winsock2.h(380): warning C4820: 'WSAData': '6' bytes padding added after data member 'szSystemStatus'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winsock2.h(1102): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member 'uMsg'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winsock2.h(1116): warning C4820: '_WSACOMPLETION': '4' bytes padding added after data member 'Type'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winsock2.h(1140): warning C4820: '_BLOB': '4' bytes padding added after data member 'cbSize'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winsock2.h(1320): warning C4820: '_WSAQuerySetA': '4' bytes padding added after data member 'dwSize'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winsock2.h(1325): warning C4820: '_WSAQuerySetA': '4' bytes padding added after data member 'dwNameSpace'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winsock2.h(1328): warning C4820: '_WSAQuerySetA': '4' bytes padding added after data member 'dwNumberOfProtocols'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winsock2.h(1331): warning C4820: '_WSAQuerySetA': '4' bytes padding added after data member 'dwNumberOfCsAddrs'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winsock2.h(1333): warning C4820: '_WSAQuerySetA': '4' bytes padding added after data member 'dwOutputFlags'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winsock2.h(1339): warning C4820: '_WSAQuerySetW': '4' bytes padding added after data member 'dwSize'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winsock2.h(1344): warning C4820: '_WSAQuerySetW': '4' bytes padding added after data member 'dwNameSpace'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winsock2.h(1347): warning C4820: '_WSAQuerySetW': '4' bytes padding added after data member 'dwNumberOfProtocols'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winsock2.h(1350): warning C4820: '_WSAQuerySetW': '4' bytes padding added after data member 'dwNumberOfCsAddrs'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winsock2.h(1352): warning C4820: '_WSAQuerySetW': '4' bytes padding added after data member 'dwOutputFlags'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winsock2.h(1361): warning C4820: '_WSAQuerySet2A': '4' bytes padding added after data member 'dwSize'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winsock2.h(1365): warning C4820: '_WSAQuerySet2A': '4' bytes padding added after data member 'dwNameSpace'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winsock2.h(1368): warning C4820: '_WSAQuerySet2A': '4' bytes padding added after data member 'dwNumberOfProtocols'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winsock2.h(1371): warning C4820: '_WSAQuerySet2A': '4' bytes padding added after data member 'dwNumberOfCsAddrs'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winsock2.h(1373): warning C4820: '_WSAQuerySet2A': '4' bytes padding added after data member 'dwOutputFlags'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winsock2.h(1378): warning C4820: '_WSAQuerySet2W': '4' bytes padding added after data member 'dwSize'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winsock2.h(1382): warning C4820: '_WSAQuerySet2W': '4' bytes padding added after data member 'dwNameSpace'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winsock2.h(1385): warning C4820: '_WSAQuerySet2W': '4' bytes padding added after data member 'dwNumberOfProtocols'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winsock2.h(1388): warning C4820: '_WSAQuerySet2W': '4' bytes padding added after data member 'dwNumberOfCsAddrs'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winsock2.h(1390): warning C4820: '_WSAQuerySet2W': '4' bytes padding added after data member 'dwOutputFlags'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winsock2.h(1477): warning C4820: '_WSANSClassInfoA': '4' bytes padding added after data member 'dwValueSize'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winsock2.h(1488): warning C4820: '_WSANSClassInfoW': '4' bytes padding added after data member 'dwValueSize'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winsock2.h(1511): warning C4820: '_WSAServiceClassInfoA': '4' bytes padding added after data member 'dwCount'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winsock2.h(1521): warning C4820: '_WSAServiceClassInfoW': '4' bytes padding added after data member 'dwCount'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winsock2.h(1543): warning C4820: '_WSANAMESPACE_INFOA': '4' bytes padding added after data member 'dwVersion'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winsock2.h(1551): warning C4820: '_WSANAMESPACE_INFOW': '4' bytes padding added after data member 'dwVersion'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winsock2.h(1559): warning C4820: '_WSANAMESPACE_INFOEXA': '4' bytes padding added after data member 'dwVersion'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winsock2.h(1568): warning C4820: '_WSANAMESPACE_INFOEXW': '4' bytes padding added after data member 'dwVersion'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winsock2.h(1612): warning C4820: 'pollfd': '4' bytes padding added after data member 'revents'
+C:\Users\yiting\Desktop\IssduRansomware20171201-7(turnAll2Kernel)\curl\include\curl/curl.h(141): warning C4820: 'curl_httppost': '4' bytes padding added after data member 'namelength'
+C:\Users\yiting\Desktop\IssduRansomware20171201-7(turnAll2Kernel)\curl\include\curl/curl.h(144): warning C4820: 'curl_httppost': '4' bytes padding added after data member 'contentslength'
+C:\Users\yiting\Desktop\IssduRansomware20171201-7(turnAll2Kernel)\curl\include\curl/curl.h(146): warning C4820: 'curl_httppost': '4' bytes padding added after data member 'bufferlength'
+C:\Users\yiting\Desktop\IssduRansomware20171201-7(turnAll2Kernel)\curl\include\curl/curl.h(171): warning C4820: 'curl_httppost': '4' bytes padding added after data member 'flags'
+C:\Users\yiting\Desktop\IssduRansomware20171201-7(turnAll2Kernel)\curl\include\curl/curl.h(260): warning C4820: 'curl_fileinfo': '4' bytes padding added after data member 'filetype'
+C:\Users\yiting\Desktop\IssduRansomware20171201-7(turnAll2Kernel)\curl\include\curl/curl.h(264): warning C4820: 'curl_fileinfo': '4' bytes padding added after data member 'gid'
+C:\Users\yiting\Desktop\IssduRansomware20171201-7(turnAll2Kernel)\curl\include\curl/curl.h(274): warning C4820: 'curl_fileinfo': '4' bytes padding added after data member 'hardlinks'
+C:\Users\yiting\Desktop\IssduRansomware20171201-7(turnAll2Kernel)\curl\include\curl/curl.h(279): warning C4820: 'curl_fileinfo': '4' bytes padding added after data member 'flags'
+C:\Users\yiting\Desktop\IssduRansomware20171201-7(turnAll2Kernel)\curl\include\curl/curl.h(716): warning C4820: 'curl_khkey': '4' bytes padding added after data member 'keytype'
+C:\Users\yiting\Desktop\IssduRansomware20171201-7(turnAll2Kernel)\curl\include\curl/curl.h(1988): warning C4820: 'curl_forms': '4' bytes padding added after data member 'option'
+C:\Users\yiting\Desktop\IssduRansomware20171201-7(turnAll2Kernel)\curl\include\curl/curl.h(2216): warning C4820: 'curl_certinfo': '4' bytes padding added after data member 'num_of_certs'
+C:\Users\yiting\Desktop\IssduRansomware20171201-7(turnAll2Kernel)\curl\include\curl/curl.h(2247): warning C4820: 'curl_tlssessioninfo': '4' bytes padding added after data member 'backend'
+C:\Users\yiting\Desktop\IssduRansomware20171201-7(turnAll2Kernel)\curl\include\curl/curl.h(2421): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member 'age'
+C:\Users\yiting\Desktop\IssduRansomware20171201-7(turnAll2Kernel)\curl\include\curl/curl.h(2423): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member 'version_num'
+C:\Users\yiting\Desktop\IssduRansomware20171201-7(turnAll2Kernel)\curl\include\curl/curl.h(2425): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member 'features'
+C:\Users\yiting\Desktop\IssduRansomware20171201-7(turnAll2Kernel)\curl\include\curl/curl.h(2427): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member 'ssl_version_num'
+C:\Users\yiting\Desktop\IssduRansomware20171201-7(turnAll2Kernel)\curl\include\curl/curl.h(2436): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member 'ares_num'
+C:\Users\yiting\Desktop\IssduRansomware20171201-7(turnAll2Kernel)\curl\include\curl/curl.h(2443): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member 'iconv_ver_num'
+c:\users\yiting\desktop\issduransomware20171201-7(turnall2kernel)\curl\include\curl\multi.h(95): warning C4820: 'CURLMsg': '4' bytes padding added after data member 'msg'
+c:\users\yiting\desktop\issduransomware20171201-7(turnall2kernel)\curl\include\curl\multi.h(114): warning C4820: 'curl_waitfd': '4' bytes padding added after data member 'revents'
+mspyLog.c(174): warning C4777: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'HRESULT'
+  mspyLog.c(174): note: consider using '%lx' in the format string
+mspyLog.c(205): warning C4777: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'ULONG'
+  mspyLog.c(205): note: consider using '%ld' in the format string
+mspyLog.c(205): warning C4777: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'ULONG'
+  mspyLog.c(205): note: consider using '%ld' in the format string
+mspyLog.c(216): warning C4777: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'DWORD'
+  mspyLog.c(216): note: consider using '%ld' in the format string
+mspyLog.c(216): warning C4777: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'DWORD'
+  mspyLog.c(216): note: consider using '%ld' in the format string
+mspyLog.c(267): warning C4777: 'printf' : format string '%08X' requires an argument of type 'unsigned int', but variadic argument 1 has type 'ULONG'
+  mspyLog.c(267): note: consider using '%lX' in the format string
+mspyLog.c(274): warning C4777: 'fprintf' : format string '%08X' requires an argument of type 'unsigned int', but variadic argument 1 has type 'ULONG'
+  mspyLog.c(274): note: consider using '%lX' in the format string
+mspyLog.c(282): warning C4777: 'printf' : format string '%08X' requires an argument of type 'unsigned int', but variadic argument 1 has type 'ULONG'
+  mspyLog.c(282): note: consider using '%lX' in the format string
+mspyLog.c(289): warning C4777: 'fprintf' : format string '%08X' requires an argument of type 'unsigned int', but variadic argument 1 has type 'ULONG'
+  mspyLog.c(289): note: consider using '%lX' in the format string
+mspyLog.c(997): warning C4777: 'sprintf' : format string '%08X' requires an argument of type 'unsigned int', but variadic argument 1 has type 'ULONG'
+  mspyLog.c(997): note: consider using '%lX' in the format string
+mspyLog.c(997): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+mspyLog.c(1030): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+mspyLog.c(1035): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+mspyLog.c(1040): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'FILE_ID'
+  mspyLog.c(1040): note: consider using '%lld' in the format string
+  mspyLog.c(1040): note: consider using '%Id' in the format string
+  mspyLog.c(1040): note: consider using '%I64d' in the format string
+mspyLog.c(1040): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+mspyLog.c(1053): warning C4057: 'initializing': 'char *' differs in indirection to slightly different base types from 'UCHAR *'
+mspyLog.c(1080): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+mspyLog.c(1084): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+mspyLog.c(1096): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+mspyLog.c(1111): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\string.h(136): note: see declaration of 'strcpy'
+mspyLog.c(1112): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\string.h(93): note: see declaration of 'strcat'
+mspyLog.c(1113): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\string.h(93): note: see declaration of 'strcat'
+mspyLog.c(1114): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\string.h(93): note: see declaration of 'strcat'
+mspyLog.c(1115): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\string.h(93): note: see declaration of 'strcat'
+mspyLog.c(1116): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\string.h(93): note: see declaration of 'strcat'
+mspyLog.c(1117): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\string.h(93): note: see declaration of 'strcat'
+mspyLog.c(1118): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\string.h(93): note: see declaration of 'strcat'
+mspyLog.c(1119): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\string.h(93): note: see declaration of 'strcat'
+mspyLog.c(1120): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\string.h(93): note: see declaration of 'strcat'
+mspyLog.c(1121): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\string.h(93): note: see declaration of 'strcat'
+mspyLog.c(1122): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\string.h(93): note: see declaration of 'strcat'
+mspyLog.c(1123): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\string.h(93): note: see declaration of 'strcat'
+mspyLog.c(1124): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\string.h(93): note: see declaration of 'strcat'
+mspyLog.c(1125): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\string.h(93): note: see declaration of 'strcat'
+mspyLog.c(1126): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\string.h(93): note: see declaration of 'strcat'
+mspyLog.c(1127): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\string.h(93): note: see declaration of 'strcat'
+mspyLog.c(1128): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\string.h(93): note: see declaration of 'strcat'
+mspyLog.c(1129): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\string.h(93): note: see declaration of 'strcat'
+mspyLog.c(1130): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\string.h(93): note: see declaration of 'strcat'
+mspyLog.c(1217): warning C4777: 'printf' : format string '%08X' requires an argument of type 'unsigned int', but variadic argument 1 has type 'ULONG'
+  mspyLog.c(1217): note: consider using '%lX' in the format string
+  minispy.vcxproj -> C:\Users\yiting\Desktop\IssduRansomware20171201-7(turnAll2Kernel)\user\x64\Debug\minispy.exe
+  minispy.vcxproj -> x64\Debug\minispy.pdb (Full PDB)

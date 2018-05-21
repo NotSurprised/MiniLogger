@@ -1,0 +1,13 @@
+﻿  Building 'minispy' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  minispy.c
+  mspyLib.c
+  RegistrationData.c
+  Generating Code...
+  minispy.vcxproj -> C:\Users\yiting\Desktop\IssduRansomware20171201-7(turnAll2Kernel)\filter\Debug\minispy.sys
+  minispy.vcxproj -> Debug\minispy.pdb (Full PDB)
+  Done Adding Additional Store
+  Successfully signed: C:\Users\yiting\Desktop\IssduRansomware20171201-7(turnAll2Kernel)\filter\Debug\minispy.sys
+  
+  Driver is a Universal Driver.
+  Inf2Cat task was skipped as there were no inf files to process
+  

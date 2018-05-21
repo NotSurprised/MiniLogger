@@ -1,0 +1,17 @@
+﻿  Building 'minispy' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  RegistrationData.c
+  minispy.c
+  mspyLib.c
+mspyLib.c(1073): warning C4055: 'type cast': from data pointer 'PVOID' to function pointer 'QUERY_INFO_PROCESS'
+mspyLib.c(1211): warning C4311: 'type cast': pointer truncation from 'HANDLE' to 'long'
+mspyLib.c(1223): warning C4057: 'function': 'char *' differs in indirection to slightly different base types from 'UCHAR [1024]'
+mspyLib.c(1226): warning C4057: 'function': 'char *' differs in indirection to slightly different base types from 'UCHAR [512]'
+  Generating Code...
+  minispy.vcxproj -> C:\Users\yiting\Desktop\IssduRansomware20171201-7(turnAll2Kernel)\filter\x64\Debug\minispy.sys
+  minispy.vcxproj -> x64\Debug\minispy.pdb (Full PDB)
+  Done Adding Additional Store
+  Successfully signed: C:\Users\yiting\Desktop\IssduRansomware20171201-7(turnAll2Kernel)\filter\x64\Debug\minispy.sys
+  
+  Driver is a Universal Driver.
+  Inf2Cat task was skipped as there were no inf files to process
+  
