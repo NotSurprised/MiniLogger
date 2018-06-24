@@ -1073,7 +1073,7 @@ NTSTATUS GetProcessImageName(_Inout_ PUNICODE_STRING ProcessImageName)
 			(QUERY_INFO_PROCESS)MmGetSystemRoutineAddress(&routineName);
 
 		if (NULL == ZwQueryInformationProcess) {
-			DbgPrint("Cannot resolve ZwQueryInformationProcess\n");
+			DbgPrint("[MiniLogger]: Cannot resolve ZwQueryInformationProcess\n");
 		}
 	}
 	//
@@ -1086,7 +1086,7 @@ NTSTATUS GetProcessImageName(_Inout_ PUNICODE_STRING ProcessImageName)
 		&returnedLength);
 
 	if (STATUS_INFO_LENGTH_MISMATCH != status) {
-		DbgPrint("STATUS_INFO_LENGTH_MISMATCH\n");
+		DbgPrint("[MiniLogger]: STATUS_INFO_LENGTH_MISMATCH\n");
 		return status;
 
 	}
@@ -1100,7 +1100,7 @@ NTSTATUS GetProcessImageName(_Inout_ PUNICODE_STRING ProcessImageName)
 	if (ProcessImageName->MaximumLength < bufferLength) {
 
 		ProcessImageName->Length = (USHORT)bufferLength;
-		DbgPrint("STATUS_BUFFER_OVERFLOW\n");
+		DbgPrint("[MiniLogger]: STATUS_BUFFER_OVERFLOW\n");
 		return STATUS_BUFFER_OVERFLOW;
 
 	}
@@ -1112,7 +1112,7 @@ NTSTATUS GetProcessImageName(_Inout_ PUNICODE_STRING ProcessImageName)
 	buffer = ExAllocatePoolWithTag(PagedPool, returnedLength, 'ipgD');
 
 	if (NULL == buffer) {
-		DbgPrint("STATUS_INSUFFICIENT_RESOURCES\n");
+		DbgPrint("[MiniLogger]: STATUS_INSUFFICIENT_RESOURCES\n");
 		return STATUS_INSUFFICIENT_RESOURCES;
 
 	}
@@ -1131,11 +1131,11 @@ NTSTATUS GetProcessImageName(_Inout_ PUNICODE_STRING ProcessImageName)
 		// Ah, we got what we needed
 		//	
 		imageName = (PUNICODE_STRING)buffer;
-		//DbgPrint("----ProcessImageName : %wZ\n", ProcessImageName);
-		//DbgPrint("----ProcessImageName : %wZ\n", imageName);
+		//DbgPrint("[MiniLogger]: ----ProcessImageName : %wZ\n", ProcessImageName);
+		//DbgPrint("[MiniLogger]: ----ProcessImageName : %wZ\n", imageName);
 		RtlCopyUnicodeString(ProcessImageName, imageName);
-		//DbgPrint("--------ProcessImageName : %wZ\n", imageName);
-		//DbgPrint("--------ProcessImageName : %wZ\n", ProcessImageName);
+		//DbgPrint("[MiniLogger]: --------ProcessImageName : %wZ\n", imageName);
+		//DbgPrint("[MiniLogger]: --------ProcessImageName : %wZ\n", ProcessImageName);
 	}
 
 	//
@@ -1209,23 +1209,23 @@ Return Value:
     recordData->ProcessId       = (FILE_ID)PsGetCurrentProcessId();
     recordData->ThreadId        = (FILE_ID)PsGetCurrentThreadId();
 	long PID = (long)PsGetCurrentProcessId();
-	DbgPrint("ProcessID : %d\n", PID);
+	DbgPrint("[MiniLogger]: ProcessID : %d\n", PID);
 	UNICODE_STRING ProcessImageName;
 	WCHAR sourceProcessImageName[512];
 	ProcessImageName.Buffer = sourceProcessImageName;
 	ProcessImageName.Length = 0x0;
 	ProcessImageName.MaximumLength = sizeof(sourceProcessImageName);
-	//DbgPrint("if(GetProcessImageName(ProcessImageName))\n");
+	//DbgPrint("[MiniLogger]: if(GetProcessImageName(ProcessImageName))\n");
 	//GetProcessImageName(&ProcessImageName);
-	//DbgPrint("ProcessImageName : %wZ\n", &ProcessImageName);
+	//DbgPrint("[MiniLogger]: ProcessImageName : %wZ\n", &ProcessImageName);
 	GetProcessImageName(&ProcessImageName);
 	UCHAR ImageName[1024];
 	sprintf(ImageName, "%wZ", &ProcessImageName);
 	//DbgPrint("----------------ProcessImageName : %wZ\n", &ProcessImageName);
-	DbgPrint("ProcessImageName : %s\n", ImageName);
+	DbgPrint("[MiniLogger]: ProcessImageName : %s\n", ImageName);
 	sprintf(recordData->ProcessName, "%wZ", &ProcessImageName);
 	//recordData->ProcessName = ImageName;
-	DbgPrint("--ProcessImageName : %s\n", recordData->ProcessName);
+	DbgPrint("[MiniLogger]: --ProcessImageName : %s\n", recordData->ProcessName);
 
     recordData->Arg1 = Data->Iopb->Parameters.Others.Argument1;
     recordData->Arg2 = Data->Iopb->Parameters.Others.Argument2;

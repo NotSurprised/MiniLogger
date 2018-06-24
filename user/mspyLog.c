@@ -130,7 +130,7 @@ Return Value:
     PRECORD_DATA pRecordData;
     COMMAND_MESSAGE commandMessage;
 
-    //printf("Log: Starting up\n");
+    //printf("[MiniLogger]: Log: Starting up\n");
 
 #pragma warning(push)
 #pragma warning(disable:4127) // conditional expression is constant
@@ -165,13 +165,13 @@ Return Value:
 
             if (HRESULT_FROM_WIN32( ERROR_INVALID_HANDLE ) == hResult) {
 
-                printf( "The kernel component of minispy has unloaded. Exiting\n" );
+                printf( "[MiniLogger]: The kernel component of minispy has unloaded. Exiting\n" );
                 ExitProcess( 0 );
             } else {
 
                 if (hResult != HRESULT_FROM_WIN32( ERROR_NO_MORE_ITEMS )) {
 
-                    printf( "UNEXPECTED ERROR received: %x\n", hResult );
+                    printf( "[MiniLogger]: UNEXPECTED ERROR received: %x\n", hResult );
                 }
 
                 Sleep( POLL_INTERVAL );
@@ -202,7 +202,7 @@ Return Value:
 
             if (pLogRecord->Length < (sizeof(LOG_RECORD)+sizeof(WCHAR))) {
 
-                printf( "UNEXPECTED LOG_RECORD->Length: length=%d expected>=%d\n",
+                printf( "[MiniLogger]: UNEXPECTED LOG_RECORD->Length: length=%d expected>=%d\n",
                         pLogRecord->Length,
                         (ULONG)(sizeof(LOG_RECORD)+sizeof(WCHAR)));
 
@@ -213,7 +213,7 @@ Return Value:
 
             if (used > bytesReturned) {
 
-                printf( "UNEXPECTED LOG_RECORD size: used=%d bytesReturned=%d\n",
+                printf( "[MiniLogger]: UNEXPECTED LOG_RECORD size: used=%d bytesReturned=%d\n",
                         used,
                         bytesReturned);
 
@@ -308,9 +308,9 @@ Return Value:
         }
     }
 
-    printf( "Log: Shutting down\n" );
+    printf( "[MiniLogger]: Log: Shutting down\n" );
     ReleaseSemaphore( context->ShutDown, 1, NULL );
-    printf( "Log: All done\n" );
+    printf( "[MiniLogger]: Log: All done\n" );
     return 0;
 }
 
